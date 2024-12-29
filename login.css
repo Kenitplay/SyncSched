@@ -1,0 +1,45 @@
+/* Background Image */
+body {
+    background: url('loginbg.jpeg') no-repeat center center fixed; /* Add your background image here */
+    background-size: cover;
+}
+
+/* Centered login card with appropriate size */
+.login-container {
+    background-color: #FFFFFF; /* Slightly transparent white */
+    padding: 40px;
+    border-radius: 7px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 420px;
+    width: 100%;
+}
+
+/* Logo styling */
+.logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 170px; /* Adjust width as needed */
+}
+
+/* Custom button styling */
+.btn-primary {
+    background-color: #d9534f; /* Adjust button color */
+    border-color: #d9534f;
+}
+
+.btn-primary:hover {
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+/* Center alignment for the content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p {
+    text-align: center;
+}
