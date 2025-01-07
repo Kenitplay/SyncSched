@@ -24,14 +24,10 @@
         <a href="dashboard.php"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
         <a href="colleges.php"><i class="fas fa-school"></i> Colleges</a>
         <a href="teacher.php"><i class="fas fa-chalkboard-teacher"></i> Teachers</a>
-        <a href="admin.php"><i class="fas fa-user-shield"></i> Administrator</a>
-
-        <div class="font-bold">
-            <a href="../logout.php" 
-               class="logout-button text-white px-4 py-2 rounded shadow-md">
-               <i class="fas fa-sign-out-alt"></i> Log Out
-            </a>
-        </div>
+        <a href="admin.php"><i class="fas fa-user-shield"></i>Administrator</a>
+         <div class="font-bold">
+             <a href="../logout.php" class="bg-red-500 text-white px-4 py-2 shadow-md"><i class="fas fa-sign-out-alt"></i> Log Out </a>
+         </div>
     </div>
     <?php
     }
@@ -46,12 +42,9 @@
         <a href="../teacher/schedules.php"><i class="fas fa-calendar-alt"></i> Schedules</a>
         <a href="../teacher/students.php"><i class="fas fa-users"></i> Students</a>
         <a href="../teacher/request.php"><i class="fas fa-envelope"></i> Requests</a>
-        <div class="font-bold">
-            <a href="../logout.php" 
-               class="logout-button text-white px-4 py-2 rounded shadow-md">
-               <i class="fas fa-sign-out-alt"></i> Log Out
-            </a>
-        </div>
+         <div class="font-bold">
+             <a href="../logout.php" class="bg-red-500 text-white px-4 py-2 shadow-md"><i class="fas fa-sign-out-alt"></i> Log Out </a>
+         </div>
     </div>
     <?php
     }
@@ -66,11 +59,8 @@
         <a href="profile.php"><i class="fas fa-user"></i> Profile</a>
         <a href="edit_password.php"><i class="fas fa-lock"></i> Edit Password</a>
         <div class="font-bold">
-            <a href="../logout.php" 
-               class="logout-button">
-               <i class="fas fa-sign-out-alt"></i> Log Out
-            </a>
-        </div>
+             <a href="../logout.php" class="bg-red-500 text-white px-4 py-2 shadow-md"><i class="fas fa-sign-out-alt"></i> Log Out </a>
+         </div>
     </div>
     <?php
     }
